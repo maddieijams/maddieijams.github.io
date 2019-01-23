@@ -1,0 +1,22 @@
+
+
+.jumbotron {
+    background: url("../assets/img/road.jpg") no-repeat center center ; 
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    height: 100vh;
+    position: relative ;
+    text-align: center;
+    font-family: var(--nameFont);
+}
+
+.display-3 {
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-family: var(--nameFont);
+    color: black;
+}

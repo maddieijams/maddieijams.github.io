@@ -1,0 +1,10 @@
+
+
+h3 {
+    font-style: center; 
+}
+
+#project {
+    background-attachment: fixed;
+    background-color: var(--foam);
+}
