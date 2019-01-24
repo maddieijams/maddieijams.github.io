@@ -1,10 +1,9 @@
 
 
 .jumbotron {
-    background: url("../assets/img/road.jpg") no-repeat center center ; 
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
+    background: url("../assets/img/img195.jpg") no-repeat ;
+    background-position: center -50em; 
+    margin-bottom: 0px;
     height: 100vh;
     position: relative ;
     text-align: center;
@@ -14,9 +13,16 @@
 .display-3 {
     text-align: center;
     color: black;
+    position: relative;
+    left: 0px; 
+    bottom:-180px;
+    font-size: 80px;
+    color: var(--mustard);
 }
 
 h1 {
     font-family: var(--nameFont);
     color: black;
+    font-size: 50px;
+    text-align: center;
 }

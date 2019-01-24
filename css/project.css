@@ -1,10 +1,17 @@
-
-
 h3 {
     font-style: center; 
 }
 
 #project {
-    background-attachment: fixed;
-    background-color: var(--foam);
+    background-color: var(--mustard);
 }
+
+#spin {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+  img:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }

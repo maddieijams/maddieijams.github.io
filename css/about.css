@@ -5,3 +5,7 @@
 .abt {
    font-size: 18px;
 }
+
+#about {
+   background-color: var(--mustard);
+}

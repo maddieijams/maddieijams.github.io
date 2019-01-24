@@ -1,5 +1,5 @@
 body {
-    background-color: var(--mustard) ;
+    /* background-color: var(--mustard) ; */
     font-family: var(--headerFont);
     color: black;
 }
@@ -10,3 +10,6 @@ body {
     color: black;
 }
 
+#resume {
+    background-color: var(--foam);
+}
