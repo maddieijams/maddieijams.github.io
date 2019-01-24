@@ -18,6 +18,7 @@
     bottom:-180px;
     font-size: 80px;
     color: var(--mustard);
+    text-shadow: 3px 3px black;
 }
 
 h1 {
