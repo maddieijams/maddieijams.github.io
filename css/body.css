@@ -1,5 +1,5 @@
 body {
-    /* background-color: var(--mustard) ; */
+    background-color: var(--foam) ;
     font-family: var(--headerFont);
     color: black;
 }
@@ -7,7 +7,7 @@ body {
 .mx-auto {
     font-family: var(--nameFont) !important;
     font-size: 30px !important;
-    color: black;
+    color: black !important;
 }
 
 #resume {

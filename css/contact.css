@@ -3,11 +3,12 @@
 #contact {
     display: block;
     text-align: center;
-    background-color: var(--foam);
+    /* background-color: var(--foam); */
 }
 
 #eggplant {
-    display: inline-block;
+    display: flex space-around;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -22,7 +23,7 @@ button {
     border-radius: 8px;
     font-size: 25px !important ;
     width: 100px;
-    background-color: var(--teal) !important;
+    background-color: var(--mustard) !important;
     color: black !important;
 }
 

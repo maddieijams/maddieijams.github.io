@@ -7,19 +7,30 @@
     height: 100vh;
     position: relative ;
     text-align: center;
-    font-family: var(--nameFont);
+    
 }
 
 .display-3 {
     text-align: center;
-    color: black;
     position: relative;
     left: 0px; 
     bottom:-180px;
     font-size: 80px;
     color: var(--mustard);
     text-shadow: 3px 3px black;
+    font-family: var(--nameFont);
 }
+
+.subtitle {
+    text-align: center;
+    position: relative;
+    left: 0px; 
+    bottom:-170px;
+    font-size: 50px;
+    color: var(--foam);
+    text-shadow: 3px 3px black;
+    font-family: var(--headerFont);
+} 
 
 h1 {
     font-family: var(--nameFont);
