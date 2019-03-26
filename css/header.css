@@ -1,7 +1,7 @@
 
 
 .jumbotron {
-    background: url("../assets/img/img195.jpg") no-repeat ;
+    background: url("../assets/img/img195better.jpg") no-repeat ;
     background-position: center -50em; 
     margin-bottom: 0px;
     height: 100vh;
@@ -14,7 +14,7 @@
     text-align: center;
     position: relative;
     left: 0px; 
-    bottom:-180px;
+    bottom:-390px;
     font-size: 80px;
     color: var(--mustard);
     text-shadow: 3px 3px black;
@@ -25,11 +25,12 @@
     text-align: center;
     position: relative;
     left: 0px; 
-    bottom:-170px;
+    bottom:-370px;
     font-size: 50px;
-    color: var(--foam);
+    color: whitesmoke;
     text-shadow: 3px 3px black;
-    font-family: var(--headerFont);
+    font-family: 'Roboto', sans-serif;
+    ;
 } 
 
 h1 {

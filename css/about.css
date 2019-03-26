@@ -3,5 +3,15 @@
 }
 
 .abt {
-   font-size: 18px;
+   font-size: 16px;
 }
+
+#me{
+   width: 65%;
+   height: auto;
+   border-radius: 4%;
+}
+/* 
+#about{
+   margin-bottom: -20em !important;
+} */

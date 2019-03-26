@@ -1,22 +1,52 @@
 
 .navbar {
     background: var(--mustard);
+    height: 80px;
     margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: var(--headerFont);
-    box-shadow: 7px 7px 7px black !important;
+    font-size: 35px;
+    font-family: var(--nameFont);
+    box-shadow: 7px 7px 7px rgb(44, 44, 44) !important;
+    /* display: flex; */
+    
 }
 
-.navbar navbar-toggler {
-    background-color: var(--mustard);
+.navbar a{
+    color: white !important;
+    
 }
 
-.navlink {
-    color: black !important;
+#resume {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
 }
 
-.logo {
+#linkedin{
     width: 50px;
     height: 50px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  } 
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 14px;
+    text-decoration: none;
+  }
+
+  #right{
+    justify-content: right !important;
+    text-align: right;
+  }
