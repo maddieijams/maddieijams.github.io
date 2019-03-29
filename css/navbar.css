@@ -6,6 +6,7 @@
     font-size: 35px;
     font-family: var(--nameFont);
     box-shadow: 7px 7px 7px rgb(44, 44, 44) !important;
+    position: fixed ;
     /* display: flex; */
     
 }

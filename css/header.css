@@ -2,10 +2,10 @@
 
 .jumbotron {
     background: url("../assets/img/img195better.jpg") no-repeat ;
-    background-position: center -50em; 
-    margin-bottom: 0px;
+    background-position:  -46em -60em; 
+    /* margin-bottom: 50px; */
     height: 100vh;
-    position: relative ;
+    /* position: relative ; */
     text-align: center;
     
 }
@@ -14,7 +14,7 @@
     text-align: center;
     position: relative;
     left: 0px; 
-    bottom:-390px;
+    bottom:-230px;
     font-size: 80px;
     color: var(--mustard);
     text-shadow: 3px 3px black;
@@ -25,9 +25,9 @@
     text-align: center;
     position: relative;
     left: 0px; 
-    bottom:-370px;
+    bottom:-220px;
     font-size: 50px;
-    color: whitesmoke;
+    color: white;
     text-shadow: 3px 3px black;
     font-family: 'Roboto', sans-serif;
     ;
