@@ -1,16 +1,17 @@
 
 
 .jumbotron {
-    background: url("../assets/img/img195better.jpg") no-repeat ;
-    background-position:  -46em -60em; 
-    /* margin-bottom: 50px; */
-    height: 100vh;
-    /* position: relative ; */
+    background: url("../assets/img/img195best.jpg") ;
+    width:100vw !important; 
+    height:100vh !important;
+    background-position:  center -45em; 
+    background-attachment: fixed;
+    position: relative ;
     text-align: center;
     
 }
 
-.display-3 {
+/* .display-3 {
     text-align: center;
     position: relative;
     left: 0px; 
@@ -19,9 +20,9 @@
     color: var(--mustard);
     text-shadow: 3px 3px black;
     font-family: var(--nameFont);
-}
+} */
 
-.subtitle {
+/* .subtitle {
     text-align: center;
     position: relative;
     left: 0px; 
@@ -31,7 +32,7 @@
     text-shadow: 3px 3px black;
     font-family: 'Roboto', sans-serif;
     ;
-} 
+}  */
 
 h1 {
     font-family: var(--nameFont);
@@ -39,3 +40,19 @@ h1 {
     font-size: 50px;
     text-align: center;
 }
+
+@media only screen and (max-width: 415px) {
+    
+    .jumbotron {
+        background: url("../assets/img/img195best.jpg") no-repeat ;
+        background-position:  bottom center; 
+        position: relative ;
+        text-align: center;
+        background-size: auto 900px;
+        overflow-x: hidden;
+    }
+
+
+
+
+} 

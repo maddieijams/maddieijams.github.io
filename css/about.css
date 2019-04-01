@@ -3,13 +3,25 @@
 }
 
 .abt {
+   margin-top: 8%;
+   /* margin-bottom: 10%; */
    font-size: 16px;
+   text-align: center;
+   /* margin: auto; */
+   /* display: flex !important;
+        flex-direction: column !important;
+        
+        align-content: space-between !important;
+        margin-left: auto; */
+
+
 }
 
 #me{
-   width: 65%;
+   width: 60%;
    height: auto;
    border-radius: 4%;
+   margin: auto;
 }
 /* 
 #about{

@@ -1,19 +1,21 @@
 
-.navbar {
-    background: var(--mustard);
-    height: 80px;
+nav {
+    background-color: var(--mustard) !important;
     margin-bottom: 0px;
     font-size: 35px;
     font-family: var(--nameFont);
-    box-shadow: 7px 7px 7px rgb(44, 44, 44) !important;
-    position: fixed ;
-    /* display: flex; */
+    box-shadow: 7px 7px 7px rgba(56, 56, 56, 0.795) !important;
+    width: 100vw;
+    height: fit-content !important;
+    /* overflow-x: hidden !important; */
     
 }
 
-.navbar a{
-    color: white !important;
-    
+
+
+.nav-link{
+  font-family: var(--nameFont) !important;
+  font-size: 30px;
 }
 
 #resume {
@@ -32,22 +34,80 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
   }
   
-  li {
-    float: left;
-  } 
-  
+ 
   li a {
-    display: block;
+    /* display: block; */
     color: white;
-    text-align: center;
     padding: 8px 14px;
     text-decoration: none;
   }
 
-  #right{
-    justify-content: right !important;
-    text-align: right;
+  .custom-toggler{
+    background-color: var(--mustard) !important;
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler a:visited {
+    border-color:none; 
+  }  
+ 
+
+  @media only screen and (max-width: 600px) {
+
+    .custom-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    nav {
+      background-color: var(--mustard) !important;
+      margin-bottom: 0px;
+      box-shadow: 7px 7px 7px rgba(56, 56, 56, 0.795) !important;
+      width: 100vw;
+      height: fit-content !important;
+      /* overflow-x: hidden !important; */
+      
+  }
+  
+  .nav-link{
+    font-family: 'Roboto', sans-serif !important;   
+     font-size: 17px;
+   
+  }
+  
+  #resume {
+      width: 30px;
+      height: 30px;
+      filter: invert(100%);
+  }
+  
+  #linkedin{
+      width: 30px;
+      height: 30px;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+   
+    li a {
+      color: white;
+      padding: 3px 6px;
+      text-decoration: none;
+    }
+
   }
