@@ -2,22 +2,45 @@ h3 {
     font-style: center; 
 }
 
-/* #project {
-    margin-top: -1000em !important;
-} */
+#tagged{
+    margin-top:3em;
+ margin-bottom: 2em;
+}
 
-#spin {
-    border-radius: 50%;
-    -webkit-transition: -webkit-transform .8s ease-in-out;
-            transition:         transform .8s ease-in-out;
-  }
-  img:hover {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+#vag{
+    width: auto;
+    height: 200px;
+    margin-bottom: 2em;
+}
 
-  iframe{
-      width:65em !important;
-      height:35em !important;
-      margin: 0;
-  }
+#totoro{
+    width: auto;
+    height:200px;
+    margin-bottom: 2em;
+}
+
+#rolly{
+    height: 200px;
+    width: auto;
+    margin-bottom: 2em;
+}
+
+a{
+    color: black ;
+}
+
+h4{
+    color: white;
+}
+
+h3{
+    color:white;
+}
+
+a:hover{
+    text-decoration: none;
+    /* filter: invert(.5) !important; */
+    opacity: .25 !important;
+    color: black;
+}
+  

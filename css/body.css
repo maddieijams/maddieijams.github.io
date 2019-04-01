@@ -13,10 +13,5 @@ html,body
     overflow-x: hidden !important;  
 }
 
-.mx-auto {
-    font-family: var(--nameFont) !important;
-    font-size: 30px ;
-    color: black !important;
-}
 
 

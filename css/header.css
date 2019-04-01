@@ -11,33 +11,10 @@
     
 }
 
-/* .display-3 {
-    text-align: center;
-    position: relative;
-    left: 0px; 
-    bottom:-230px;
-    font-size: 80px;
-    color: var(--mustard);
-    text-shadow: 3px 3px black;
-    font-family: var(--nameFont);
-} */
-
-/* .subtitle {
-    text-align: center;
-    position: relative;
-    left: 0px; 
-    bottom:-220px;
-    font-size: 50px;
-    color: white;
-    text-shadow: 3px 3px black;
-    font-family: 'Roboto', sans-serif;
-    ;
-}  */
-
 h1 {
     font-family: var(--nameFont);
-    color: black;
-    font-size: 50px;
+    color: white;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -52,7 +29,12 @@ h1 {
         overflow-x: hidden;
     }
 
-
+    h1 {
+        font-family: var(--nameFont);
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
 
 
 } 

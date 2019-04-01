@@ -23,7 +23,15 @@
    border-radius: 4%;
    margin: auto;
 }
-/* 
-#about{
-   margin-bottom: -20em !important;
-} */
+
+
+@media only screen and (max-width: 415px) {
+
+   .abt {
+      margin-top: 6%;
+      font-size: 15px;
+      text-align: center;
+   }
+
+
+}

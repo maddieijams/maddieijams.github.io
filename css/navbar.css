@@ -7,11 +7,7 @@ nav {
     box-shadow: 7px 7px 7px rgba(56, 56, 56, 0.795) !important;
     width: 100vw;
     height: fit-content !important;
-    /* overflow-x: hidden !important; */
-    
 }
-
-
 
 .nav-link{
   font-family: var(--nameFont) !important;
@@ -69,14 +65,11 @@ ul {
       box-shadow: 7px 7px 7px rgba(56, 56, 56, 0.795) !important;
       width: 100vw;
       height: fit-content !important;
-      /* overflow-x: hidden !important; */
-      
   }
   
   .nav-link{
     font-family: 'Roboto', sans-serif !important;   
      font-size: 17px;
-   
   }
   
   #resume {
@@ -96,14 +89,12 @@ ul {
       padding: 0;
       overflow: hidden;
       display: flex;
-        /* align-items: center; */
         justify-content: center;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
     
-   
     li a {
       color: white;
       padding: 3px 6px;
