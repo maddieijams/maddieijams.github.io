@@ -45,7 +45,7 @@ ul {
   } */
 
   .custom-toggler .navbar-toggler-icon {
-    background-image: url("../assets/logo/burger.png");
+    background-image: url("../assets/logo/toggle.png");
   }
   
   /* .custom-toggler.navbar-toggler a:visited {
@@ -56,7 +56,7 @@ ul {
   @media only screen and (max-width: 600px) {
 
     .custom-toggler .navbar-toggler-icon {
-      background-image: url("../assets/logo/burger.png");
+      background-image: url("../assets/logo/toggle.png");
     }
 
     nav {
