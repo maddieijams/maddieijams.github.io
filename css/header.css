@@ -4,10 +4,9 @@
     background: url("../assets/img/img195best.jpg") ;
     width:100vw !important; 
     height:100vh !important;
-    background-position:  center -45em; 
+    background-position:  -45em -53em; 
     background-attachment: fixed;
     position: relative ;
-    text-align: center;
     
 }
 
