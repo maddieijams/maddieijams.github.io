@@ -47,7 +47,7 @@ a:hover{
 
     a:hover{
         text-decoration: none;
-        /* opacity: 0 !important; */
+        opacity: none !important;
         color: black;
     }    
 
