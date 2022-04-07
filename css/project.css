@@ -1,54 +1,52 @@
 h3 {
-    font-style: center; 
+  font-style: center;
 }
 
-#tagged{
-    margin-top:3em;
- margin-bottom: 2em;
+#tagged {
+  margin-top: 3em;
+  margin-bottom: 2em;
 }
 
-#vag{
-    width: auto;
-    height: 200px;
-    margin-bottom: 2em;
+#vag {
+  width: auto;
+  height: 200px;
+  margin-bottom: 2em;
 }
 
-#totoro{
-    width: auto;
-    height:200px;
-    margin-bottom: 2em;
+#totoro {
+  width: auto;
+  height: 200px;
+  margin-bottom: 2em;
 }
 
-#rolly{
-    height: 200px;
-    width: auto;
-    margin-bottom: 2em;
+#rolly {
+  height: 200px;
+  width: auto;
+  margin-bottom: 2em;
 }
 
-a{
-    color: black ;
+a {
+  color: black;
 }
 
-h4{
-    color: white;
+h4 {
+  color: white;
 }
 
-h3{
-    color:white;
+h3 {
+  color: white;
 }
 
-a:hover{
-    text-decoration: none;
-    opacity: .25 !important;
-    color: black;
+a:hover {
+  text-decoration: none;
+  opacity: 0.25 !important;
+  color: black;
 }
-  
+
 @media only screen and (max-width: 415px) {
-
-    a:hover{
-        text-decoration: none;
-        opacity: none !important;
-        color: black;
-    }    
-
+  a:hover {
+    text-decoration: none;
+    opacity: none !important;
+    color: black;
+  }
 }
