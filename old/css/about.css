@@ -1,0 +1,37 @@
+.col-sm-8 {
+   font-size: 18px;
+}
+
+.abt {
+   margin-top: 8%;
+   /* margin-bottom: 10%; */
+   font-size: 16px;
+   text-align: center;
+   /* margin: auto; */
+   /* display: flex !important;
+        flex-direction: column !important;
+        
+        align-content: space-between !important;
+        margin-left: auto; */
+
+
+}
+
+#me{
+   width: 60%;
+   height: auto;
+   border-radius: 4%;
+   margin: auto;
+}
+
+
+@media only screen and (max-width: 415px) {
+
+   .abt {
+      margin-top: 6%;
+      font-size: 15px;
+      text-align: center;
+   }
+
+
+}

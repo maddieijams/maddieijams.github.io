@@ -1,0 +1,11 @@
+:root {
+  --teal: #066849;
+  --mustard: #f2c200;
+  --brown: #7f5415;
+  --foam: #6dd2a9;
+  --bgColor: white;
+  --headerColor: black;
+
+  --nameFont: "Monoton", cursive;
+  --headerFont: "Righteous", cursive;
+}

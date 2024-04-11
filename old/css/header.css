@@ -1,0 +1,33 @@
+.jumbotron {
+  background: url("../assets/img/img195best.jpg");
+  width: 100vw !important;
+  height: 100vh !important;
+  background-position: center -53em;
+  background-attachment: fixed;
+  position: relative;
+}
+
+h1 {
+  font-family: var(--nameFont);
+  color: var(--headerColor);
+  font-size: 45px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    background: url("../assets/img/img195best.jpg") no-repeat;
+    background-position: bottom center;
+    position: relative;
+    text-align: center;
+    background-size: auto 900px;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-family: var(--nameFont);
+    color: var(--headerColor);
+    font-size: 30px;
+    text-align: center;
+  }
+}
