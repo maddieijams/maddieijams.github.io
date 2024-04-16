@@ -89,6 +89,9 @@ details {
     top: 20rem;
   }
 }
+details summary::-webkit-details-marker {
+  display: none;
+}
 
 /* phones */
 @media screen and (max-width: 768px) {
