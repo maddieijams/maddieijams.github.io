@@ -1,94 +1,168 @@
-html {
-  height: 100%;
-}
+html,
 body {
   height: 100%;
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-    overflow: hidden;
-  }
-  .link {
-    color: white;
-    &:hover {
-      color: white;
-      background-color: black;
-      text-decoration: none;
-    }
-  }
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+}
+.link {
+  color: white;
+  &:hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+  }
+}
 
-  #responsive-title {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-image: url("./assets/img/portfolio-pic-bw.png");
-    background-repeat: no-repeat;
-    background-size: 40%;
-    background-position-x: left;
-    background-position-y: bottom;
-    display: flex;
-    justify-content: space-between;
-    h1 {
-      font-size: 3rem;
-      text-transform: uppercase;
-      margin: 20px 20px 0px 20px;
-    }
-    #job {
-      text-align: right;
+#title {
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin: 20px 20px 0px 20px;
+  }
+  #job {
+    text-align: right;
+  }
+}
+#me {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30rem;
+}
+details {
+  position: absolute;
+  cursor: move;
+  .carousel-item {
+    text-align: center;
+    img {
+      height: 400px;
+      margin-bottom: 1rem;
     }
   }
-  details {
-    width: 30rem;
-    position: absolute;
+  summary {
+    padding: 10px 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     cursor: move;
+
+    .toggle {
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+  }
+  &[open] {
+    summary {
+      border-bottom: 1px solid black;
+    }
+    .inner-content {
+      padding: 20px;
+      margin: 0;
+    }
+  }
+  &#about {
+    width: 30rem;
+    background-color: #00e699;
+    left: 16rem;
+    top: 6rem;
+  }
+  &#projects {
+    width: 900px;
+    background-color: steelblue;
+    left: 8rem;
+    top: 12rem;
+  }
+  &#links {
+    width: 200px;
+    background-color: #ff99aa;
+    left: 25rem;
+    top: 20rem;
+  }
+}
+
+/* phones */
+@media screen and (max-width: 768px) {
+  body {
+    /* position: relative; */
+    overflow-y: auto;
+  }
+  #title {
+    width: 100%;
+    height: 30px;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  #me {
+    width: 18rem;
+    position: relative;
+    top: 4rem;
+  }
+  #details-container {
+    position: relative;
+    top: 4rem;
+  }
+  details {
+    position: relative;
     .carousel-item {
       img {
-        height: 400px;
-        margin-bottom: 1rem;
-      }
-    }
-    summary {
-      padding: 10px 20px;
-      font-size: 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: move;
-
-      .toggle {
-        cursor: pointer;
-        padding: 0.5rem;
-      }
-    }
-    &[open] {
-      summary {
-        border-bottom: 1px solid black;
-      }
-      p {
-        padding: 20px;
-        margin: 0;
+        height: unset;
+        width: 300px;
       }
     }
     &#about {
-      background-color: #00e699;
-      left: 5rem;
-      top: 6rem;
+      left: unset;
+      top: unset;
+      width: 100%;
     }
     &#projects {
-      width: 900px;
-      background-color: steelblue;
-      left: 10rem;
-      top: 10rem;
+      left: unset;
+      top: unset;
+      width: 100%;
     }
     &#links {
-      width: 200px;
-      background-color: #ff99aa;
-      left: 25rem;
-      top: 18rem;
+      left: unset;
+      top: unset;
+      width: 100%;
     }
   }
-  /* } */
+}
+
+/* tablets */
+@media (800px < width < 1100px) and (1100px < height < 1400px) {
+  details {
+    &#about {
+      top: 15rem;
+    }
+    &#projects {
+      width: 750px;
+      left: 1rem;
+      top: 20rem;
+    }
+    &#links {
+      top: 25rem;
+    }
+  }
+}
+
+/* x-small */
+@media (max-width: 400px) {
+  #me {
+    width: 15rem;
+  }
+  #title {
+    h1 {
+      font-size: 1.75rem;
+    }
+  }
 }
